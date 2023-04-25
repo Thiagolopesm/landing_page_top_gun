@@ -1,0 +1,37 @@
+.hero {
+    padding: 5.6vw;
+    min-height: 100vh;
+    background-image:url(/dist/images/back_top_gun.png);
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+
+    
+    &__content {
+        max-width: 640px;
+
+        img {
+            max-width: 710px;
+        }
+        }
+}
+
+.hero_content_combos {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width:768px) {
+        display: block;
+}
+}
+
+    .hero__content__combos__combo {
+        width: 710px;
+        
+        @media (max-width:768px) {
+            width: 100%;
+            margin-bottom: 24px;;
+    }
+
+}
