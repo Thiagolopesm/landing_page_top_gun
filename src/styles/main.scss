@@ -141,6 +141,9 @@ body {
     h2{
         margin-bottom: 24px;
     }
+    @media (max-width:768px) {
+        text-align: center;
+}
 
     &--image-full-width {
         display: block;
@@ -167,4 +170,5 @@ body {
             }
         }
     }
+
 }
